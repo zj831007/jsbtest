@@ -11,6 +11,8 @@
 #include "js_bindings_ccbreader.h"
 #include "js_bindings_system_registration.h"
 
+#include "jsbinding_ajax.h"
+
 USING_NS_CC;
 using namespace CocosDenshion;
 
@@ -44,12 +46,19 @@ bool AppDelegate::applicationDidFinishLaunching()
     sc->addRegisterCallback(jsb_register_chipmunk);
     sc->addRegisterCallback(jsb_register_system);
     
+    sc->addRegisterCallback(js_register_jsbinding_ajaxClass);
+    
     sc->start();
     
     CCScriptEngineProtocol *pEngine = ScriptingCore::getInstance();
     CCScriptEngineManager::sharedManager()->setScriptEngine(pEngine);
     ScriptingCore::getInstance()->runScript("hello.js");
     
+//    
+//    
+//    XMLHttpRequest *rq = new XMLHttpRequest();
+//    rq->open("POST", "http://www.qq.com", TRUE);
+//    rq->send("a=1");
     return true;
 }
 

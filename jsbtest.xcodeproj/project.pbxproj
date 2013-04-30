@@ -317,6 +317,8 @@
 		D08EC3E5172EAB2700BD5225 /* stars2.png in Resources */ = {isa = PBXBuildFile; fileRef = D08EC3E4172EAB2700BD5225 /* stars2.png */; };
 		D08EC3E7172EAB2700BD5225 /* watermelon.png in Resources */ = {isa = PBXBuildFile; fileRef = D08EC3E6172EAB2700BD5225 /* watermelon.png */; };
 		D08EC3E9172EAB2800BD5225 /* hello.js in Resources */ = {isa = PBXBuildFile; fileRef = D08EC3E8172EAB2800BD5225 /* hello.js */; };
+		D08EC3F2172EAB7500BD5225 /* XMLHttpRequest.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D08EC3F0172EAB7500BD5225 /* XMLHttpRequest.cpp */; };
+		D08EC3F5172EAB8E00BD5225 /* jsbinding_ajax.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D08EC3F3172EAB8E00BD5225 /* jsbinding_ajax.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -986,6 +988,10 @@
 		D08EC3E4172EAB2700BD5225 /* stars2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = stars2.png; path = Resources/CCB/stars2.png; sourceTree = "<group>"; };
 		D08EC3E6172EAB2700BD5225 /* watermelon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = watermelon.png; path = Resources/CCB/watermelon.png; sourceTree = "<group>"; };
 		D08EC3E8172EAB2800BD5225 /* hello.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; name = hello.js; path = Resources/hello.js; sourceTree = "<group>"; };
+		D08EC3F0172EAB7500BD5225 /* XMLHttpRequest.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = XMLHttpRequest.cpp; sourceTree = "<group>"; };
+		D08EC3F1172EAB7500BD5225 /* XMLHttpRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMLHttpRequest.h; sourceTree = "<group>"; };
+		D08EC3F3172EAB8E00BD5225 /* jsbinding_ajax.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = jsbinding_ajax.cpp; sourceTree = "<group>"; };
+		D08EC3F4172EAB8E00BD5225 /* jsbinding_ajax.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = jsbinding_ajax.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -1090,6 +1096,7 @@
 		D08EBFFD172EAB1700BD5225 /* libs */ = {
 			isa = PBXGroup;
 			children = (
+				D08EC3EF172EAB6100BD5225 /* ajax */,
 				D08EBFFE172EAB1700BD5225 /* cocos2dx */,
 				D08EC1E1172EAB1E00BD5225 /* CocosDenshion */,
 				D08EC1F9172EAB1E00BD5225 /* javascript */,
@@ -2338,6 +2345,17 @@
 			name = CCB;
 			sourceTree = "<group>";
 		};
+		D08EC3EF172EAB6100BD5225 /* ajax */ = {
+			isa = PBXGroup;
+			children = (
+				D08EC3F0172EAB7500BD5225 /* XMLHttpRequest.cpp */,
+				D08EC3F1172EAB7500BD5225 /* XMLHttpRequest.h */,
+				D08EC3F3172EAB8E00BD5225 /* jsbinding_ajax.cpp */,
+				D08EC3F4172EAB8E00BD5225 /* jsbinding_ajax.h */,
+			);
+			name = ajax;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -2697,6 +2715,8 @@
 				D08EC395172EAB2600BD5225 /* CCPhysicsDebugNode.cpp in Sources */,
 				D08EC398172EAB2600BD5225 /* CCPhysicsSprite.cpp in Sources */,
 				D08EC3A4172EAB2700BD5225 /* AppDelegate.cpp in Sources */,
+				D08EC3F2172EAB7500BD5225 /* XMLHttpRequest.cpp in Sources */,
+				D08EC3F5172EAB8E00BD5225 /* jsbinding_ajax.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
