@@ -1085,9 +1085,9 @@
 			isa = PBXGroup;
 			children = (
 				D08EBFF5172EAB1700BD5225 /* AppController.h */,
-				D08EBFF6172EAB1700BD5225 /* AppController.mm */,
 				D08EBFF8172EAB1700BD5225 /* RootViewController.h */,
 				D08EBFF9172EAB1700BD5225 /* RootViewController.mm */,
+				D08EBFF6172EAB1700BD5225 /* AppController.mm */,
 				D08EBFFB172EAB1700BD5225 /* main.m */,
 			);
 			name = ios;
@@ -2860,6 +2860,7 @@
 				D08EC3EE172EAB2800BD5225 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

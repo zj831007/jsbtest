@@ -14,7 +14,7 @@ require("jsb.js");
     }
     
     
-    
+   
     __jsc__.garbageCollect();
 
     // LOADING PLAY SCENE UNTILL CCBREADER IS FIXED
